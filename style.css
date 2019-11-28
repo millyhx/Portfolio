@@ -1,3 +1,4 @@
+/* MAIN BODY STYLING */
 * {
   box-sizing: border-box;
 }
@@ -6,21 +7,25 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* JUMBOTRON */
 header {
-  background-color:#666;
-  padding:30px;
+  background-color:white;
+  padding:20px;
   text-align:center;
-  font-size:35px;
-  color:white;
+  color:black;
+  font-family:'Mansalva', cursive;
 }
 
+.title{
+  font-size:90px;
+}
+/*NAVIGATION BAR */
 ul {
   list-style-type: none;
   margin:0;
   padding:0;
   overflow:hidden;
-  background-color:#333;
-  position:-webkit-sticky;
+  background-color:#843B62;
   position:sticky;
   top:0;
 }
@@ -32,18 +37,22 @@ li {
 li a{
   display:block;
   color:white;
+  font-size:20px;
   text-align:center;
-  padding: 14px 16px;
+  padding: 35px 40px;
   text-decoration:none;
 }
 
 li a:hover {
-  background-color:#111;
+  background-color:#E2C2C6;
+  color:black;
 }
 
 .active {
-  background-color:#4CAF50;
+  background-color:#B9929F;
 }
+
+/* COLUMNS */
 
 .column {
   float:left;
@@ -52,12 +61,18 @@ li a:hover {
   height:600px;
 }
 
+.para-text {
+  font-family:'Muli', serif;
+  font-size:20px;
+}
+
 .row:after {
   content:"";
   display:table;
   clear:both;
 }
 
+/* FOOTER */
 footer {
   background-color:#777;
   padding:10px;
